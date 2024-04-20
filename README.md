@@ -21,3 +21,5 @@ root@040d50a4de2e:/data# pandoc server
 Server mode unsupported.
 Pandoc was not compiled with the 'server' flag.
 ```
+
+![a daku operating on daks](img/pandaku.jpg)

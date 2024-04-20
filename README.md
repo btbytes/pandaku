@@ -4,7 +4,7 @@ An attempt to run `pandoc server` on Docker and subsequently on [fly.io](https:/
 
 Status: INCOMPLETE
 
-I tried installing the latest ubuntu version (`ubuntu:noble-20240407.1`), but it does not ship with a version of pandoc ()
+I tried installing the latest ubuntu version (`ubuntu:noble-20240407.1`), but it does not ship with a version of pandoc (`3.1.3`)
 that is compiled with the `server` option.
 
 ```

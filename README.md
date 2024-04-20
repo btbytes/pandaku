@@ -1,8 +1,8 @@
 # pandaku
 
-An attempt to run `pandoc server` on Docker and subsequently on [fly.io](https://fly.io) as a service.
+An attempt to run `pandoc server` on Docker and subsequently on [fly.io](https://fly.io) as a service inspired by [this tweet](https://twitter.com/btbytes/status/1781580932010439056).
 
-Status:
+Status: INCOMPLETE
 
 I tried installing the latest ubuntu version (`ubuntu:noble-20240407.1`), but it does not ship with a version of pandoc ()
 that is compiled with the `server` option.

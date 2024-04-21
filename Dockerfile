@@ -1,4 +1,3 @@
-LABEL maintainer="Pradeep Gowda"
 FROM ubuntu:noble-20240407.1
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \

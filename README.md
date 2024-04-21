@@ -41,3 +41,9 @@ def send_request():
 if __name__ == "__main__":
     send_request()
 ```
+## Quick test from the terminal
+
+```sh
+curl http://localhost:3030/babelmark\?text\=Hello\!\*\*Pandaku\!\*\*\&to\=docx | jq -r .html | base64 --decode > test.docx
+open test.docx
+```
